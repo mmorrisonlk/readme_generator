@@ -1,0 +1,19 @@
+{
+  "name": "readmemaker",
+  "version": "1.0.0",
+  "description": "Automatically makes a readme for a coding project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmorrisonlk/readme_generator.git"
+  },
+  "author": "mmorrisonlk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmorrisonlk/readme_generator/issues"
+  },
+  "homepage": "https://github.com/mmorrisonlk/readme_generator#readme"
+}
