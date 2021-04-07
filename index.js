@@ -7,6 +7,12 @@ inquirer
         type: 'input',
         message: 'What would you like to title this read.ME?',
         name: 'projectTitle',
+    },
+    //Description of project goes here (Needs to be a Header in the ReadME)
+    {
+        type: 'input',
+        message: 'In a few words, describe this project',
+        name: 'description'
     }
   ])
   .then((data) => {
@@ -22,7 +28,7 @@ inquirer
 //       // Something else went wrong
 //     }
 //   });
-//Description of project goes here (Needs to be a Header in the ReadME)
+
 //Optional Table of Contents (Links between the sections)
 //Installation? (Needs to be a Header in the ReadME)
 //Usage (Needs to be a Header in the ReadME)
