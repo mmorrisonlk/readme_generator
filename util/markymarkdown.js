@@ -1,6 +1,7 @@
-
+function markyMarkdown(data) {
+    return`
     # Title
-    yes
+    ${data.projectTitle}
 
     # Description
 
@@ -21,3 +22,7 @@
 //Contributing (Needs to be a Header in the ReadME)
 //Tests (Needs to be a Header in the ReadME)
 //Submit Questions (Adds Github account link and Email to submit questions for)
+`;
+}
+
+module.exports = markyMarkdown;

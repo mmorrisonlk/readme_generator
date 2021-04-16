@@ -1,5 +1,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
+const markyMarkdown = require('./util/markymarkdown')
+
 // Section to Input title of project Needs to be the title of the Readme
 inquirer
   .prompt([
@@ -43,13 +45,17 @@ inquirer
         type: 'input',
         message: 'What email can you be reached at?',
         name: 'emailContact',
+    },
+    {
+        type: 'list',
+        message: 'What license will you use with this project?',
+        name: 'license',
+        choices: ['MIT', 'MPL', 'GPL', 'AGPL']
     }
 
   ])
   .then((data) => {
-    const fileName = `${data.projectTitle.toLowerCase().split(' ').join('')}.json`;
-
-    fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) => err ? console.log(err) : console.log('Success!')
+    fs.writeFile('README.md', markyMarkdown(data), (err) => err ? console.log(err) : console.log('Success!')
     );
   })
 //   .catch(error => {
