@@ -1,33 +1,32 @@
+ 
+# Return of the Title
 
-    # A good Title
+## Description
+Project just Project
 
-    ## Description
-    It is a homework project
-
-    ## Table of Contents
-        * [Installation](#Installation)
-        * [Usage](#usage)
-        * [License](#license)
-        * [Contribution](#contribution)
-        * [Tests](#tests)
-        * [Contact](#contact)
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Contact](#contact)
     
-    ## Installation
-    Inquirer
+## Installation
+Inquirer
 
-    ## Usage
-    Go for it
+## Usage
+Sure are
 
-    ## Contribution
-    If you want to
+## Contribution
+Naw
 
-    ## Tests
-    Jest
+## Tests
+Jest
 
-    ## License
-    MIT
+## License
+MIT
 
-    ## Contact Information
-    github.com/mmorrisonlk
-    mmorrisonlk@gmail.com
-
+## Contact Information
+github.com/mmorrisonlk
+mmorrisonlk@gmail.com

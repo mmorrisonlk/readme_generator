@@ -1,37 +1,37 @@
 function markyMarkdown(data) {
-    return`
-    # ${data.projectTitle}
+    return ` 
+# ${data.projectTitle}
 
-    ## Description
-    ${data.description}
+## Description
+${data.description}
 
-    ## Table of Contents
-        * [Installation](#Installation)
-        * [Usage](#usage)
-        * [License](#license)
-        * [Contribution](#contribution)
-        * [Tests](#tests)
-        * [Contact](#contact)
-    
-    ## Installation
-    ${data.installation}
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Contact](#contact)
 
-    ## Usage
-    ${data.usage}
+## Installation
+${data.installation}
 
-    ## Contribution
-    ${data.contribution}
+## Usage
+${data.usage}
 
-    ## Tests
-    ${data.testingInfo}
+## Contribution
+${data.contribution}
 
-    ## License
-    ${data.license}
+## Tests
+${data.testingInfo}
 
-    ## Contact Information
-    github.com/${data.github}
-    ${data.emailContact}
+## License
+${data.license}
 
-`}
+## Contact Information
+github.com/${data.github}
+${data.emailContact}`
+
+}
 
 module.exports = markyMarkdown;
