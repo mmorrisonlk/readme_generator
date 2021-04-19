@@ -1,35 +1,34 @@
 function markyMarkdown(data) {
     return`
-    # Title
-    ${data.projectTitle}
+    # ${data.projectTitle}
 
-    # Description
+    ## Description
     ${data.description}
 
     ## Table of Contents
-        * [Installation](#installation)
+        * [Installation](#Installation)
         * [Usage](#usage)
         * [License](#license)
         * [Contribution](#contribution)
         * [Tests](#tests)
         * [Contact](#contact)
     
-    # Installation
+    ## Installation
     ${data.installation}
 
-    # Usage
+    ## Usage
     ${data.usage}
 
-    # Contribution
+    ## Contribution
     ${data.contribution}
 
-    # Tests
+    ## Tests
     ${data.testingInfo}
 
-    # License
+    ## License
     ${data.license}
 
-    # Contact Information
+    ## Contact Information
     github.com/${data.github}
     ${data.emailContact}
 

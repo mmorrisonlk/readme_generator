@@ -1,34 +1,33 @@
 
-    # Title
-    Title
+    # A good Title
 
-    # Description
-    It is a project
+    ## Description
+    It is a homework project
 
     ## Table of Contents
-        * [Installation](#installation)
+        * [Installation](#Installation)
         * [Usage](#usage)
         * [License](#license)
         * [Contribution](#contribution)
         * [Tests](#tests)
         * [Contact](#contact)
     
-    # Installation
+    ## Installation
     Inquirer
 
-    # Usage
-    Don't copy it
+    ## Usage
+    Go for it
 
-    # Contribution
-    Sure
+    ## Contribution
+    If you want to
 
-    # Tests
+    ## Tests
     Jest
 
-    # License
+    ## License
     MIT
 
-    # Contact Information
+    ## Contact Information
     github.com/mmorrisonlk
     mmorrisonlk@gmail.com
 
