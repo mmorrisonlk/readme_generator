@@ -4,6 +4,7 @@ function markyMarkdown(data) {
     ${data.projectTitle}
 
     # Description
+    ${data.description}
 
     ## Table of Contents
         * [Installation](#installation)
@@ -14,15 +15,24 @@ function markyMarkdown(data) {
         * [Contact](#contact)
     
     # Installation
+    ${data.installation}
 
-    //Optional Table of Contents (Links between the sections)
-//Installation? (Needs to be a Header in the ReadME)
-//Usage (Needs to be a Header in the ReadME)
-//License (Liscense choose from a list) Adds a badge near the top of the readme that explains what license its unter
-//Contributing (Needs to be a Header in the ReadME)
-//Tests (Needs to be a Header in the ReadME)
-//Submit Questions (Adds Github account link and Email to submit questions for)
-`;
-}
+    # Usage
+    ${data.usage}
+
+    # Contribution
+    ${data.contribution}
+
+    # Tests
+    ${data.testingInfo}
+
+    # License
+    ${data.license}
+
+    # Contact Information
+    github.com/${data.github}
+    ${data.emailContact}
+
+`}
 
 module.exports = markyMarkdown;

@@ -7,7 +7,7 @@ inquirer
   .prompt([
     {
         type: 'input',
-        message: 'What would you like to title this read.ME?',
+        message: 'What would you like to title this README?',
         name: 'projectTitle',
     },
     //Description of project goes here (Needs to be a Header in the ReadME)
